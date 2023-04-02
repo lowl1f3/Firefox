@@ -1,5 +1,9 @@
-# About
+## About
 Configuring Mozilla Firefox using [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone#mica-for-everyone) and .css add-ons
+
+## Before running
+
+* In `about:config` search `toolkit.legacyUserProfileCustomizations.stylesheets` and set to `True` for your custom themes to work
 
 ## Donations
 
