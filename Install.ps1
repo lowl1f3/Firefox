@@ -21,6 +21,17 @@
 
 $Script:DownloadsFolder = Get-ItemPropertyValue -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" -Name "{374DE290-123F-4565-9164-39C4925E467B}"
 
+# Move chrome folder to the main Firefox profile folder
+if (Test-Path -Path "$PSScriptRoot\chrome")
+{
+	Copy-Item -Path "$PSScriptRoot\chrome" -Destination "$env:APPDATA\Mozilla\Firefox\Profiles\*\" -Force
+}
+else
+{
+	Write-Warning -Message "There aren't neccessary files to move. Download repository again"
+	exit
+}
+
 # Download MicaForEveryone
 Write-Verbose -Message "Downloading MicaForEveryone..." -Verbose
 
