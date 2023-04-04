@@ -1,11 +1,11 @@
-/* Source: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/iconized_main_menu.css
+/* Source: https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/iconized_main_menu.css */
 
 /* Adds icons to main menu items which were removed in Proton */
 #appMenu-fxa-status2[fxastatus] > toolbarbutton::before,
 #appMenu-protonMainView > .panel-subview-body > toolbarbutton > image{
-  fill: currentColor;
-  -moz-context-properties: fill;
-  margin-inline: 0 8px !important;
+	fill: currentColor;
+	-moz-context-properties: fill;
+	margin-inline: 0 8px !important;
 }
 #appMenu-new-tab-button2{ list-style-image: url("chrome://browser/skin/new-tab.svg") }
 #appMenu-new-window-button2{ list-style-image: url("chrome://browser/skin/window.svg") }
@@ -22,22 +22,24 @@
 #appMenu-more-button2{ list-style-image: url("chrome://global/skin/icons/developer.svg") }
 #appMenu-help-button2{ list-style-image: url("chrome://global/skin/icons/info.svg") }
 #appMenu-quit-button2{ list-style-image: url("chrome://devtools/skin/images/search-clear.svg") }
+
 /* Use account-button icon for signed in sync item */
 #appMenu-fxa-status2[fxastatus] > toolbarbutton::before{
-  display: -moz-box;
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-image: var(--avatar-image-url)
+	display: -moz-box;
+	content: "";
+	width: 16px;
+	height: 16px;
+	background-image: var(--avatar-image-url)
 }
+
 /* Add somewhat hacky separator to zoom controls so it looks consistent */
 #appMenu-protonMainView > .panel-subview-body::after{
-  content: "";
-  display: -moz-box;
-  border-bottom: 1px solid var(--panel-separator-color);
-  margin: var(--panel-separator-margin);
+	content: "";
+	display: -moz-box;
+	border-bottom: 1px solid var(--panel-separator-color);
+	margin: var(--panel-separator-margin);
 }
 
 #appMenu-find-button2 ~ *{
-  -moz-box-ordinal-group: 2;
+	-moz-box-ordinal-group: 2;
 }
