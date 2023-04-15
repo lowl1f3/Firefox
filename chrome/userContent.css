@@ -400,8 +400,5 @@ url("about:newtab") {
 
 @-moz-document url("about:blank") {
 	html:not(#ublock0-epicker),
-	html:not(#ublock0-epicker) body,
-	#newtab-customize-overlay {
-		background-color: var(--firefoxcss-main-bg-color) !important;
-	}
+	html:not(#ublock0-epicker) body
 }
