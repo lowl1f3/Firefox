@@ -1,5 +1,5 @@
 ## About
-Configuring Mozilla Firefox using [.css](https://github.com/lowl1f3/Firefox/tree/main/chrome) add-ons
+Customizing Mozilla Firefox using [.css](https://github.com/lowl1f3/Firefox/tree/main/chrome) add-ons
 
 ## Before running
 
