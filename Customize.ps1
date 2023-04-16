@@ -106,37 +106,37 @@ if (Test-Path -Path "$env:APPDATA\Mozilla\Firefox\Profiles\$ProfileName\chrome")
 	{
 		$Images = @(
 			# Firefox_2019.svg
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/Firefox_2019.svg",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/Firefox_2019.svg",
 
 			# about-logo-private-changed.png
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/about-logo-private-changed.png",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/about-logo-private-changed.png",
 
 			# browser-firefox.svg
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/browser-firefox.svg",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/browser-firefox.svg",
 
 			# files.svg
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/files.svg",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/files.svg",
 
 			# firefox.svg
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/firefox.svg",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/firefox.svg",
 
 			# firefoxx.png
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/firefoxx.png",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/firefoxx.png",
 
 			# left-arrow.svg
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/left-arrow.svg",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/left-arrow.svg",
 
 			# noise-512x512.png
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/noise-512x512.png",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/noise-512x512.png",
 
 			# right-arrow.svg
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/right-arrow.svg",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/right-arrow.svg",
 
 			# search-glass.svg
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/search-glass.svg",
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/search-glass.svg",
 
 			# stack.svg
-			"https://github.com/lowl1f3/Firefox/blob/main/chrome/image/stack.svg"
+			"https://github.com/datguypiko/Firefox-Mod-Blur/blob/master/image/stack.svg"
 		)
 
 		Write-Warning -Message "Downloading images..."
