@@ -7,6 +7,7 @@
 	-moz-context-properties: fill;
 	margin-inline: 0 8px !important;
 }
+
 #appMenu-new-tab-button2{ list-style-image: url("chrome://browser/skin/new-tab.svg") }
 #appMenu-new-window-button2{ list-style-image: url("chrome://browser/skin/window.svg") }
 #appMenu-new-private-window-button2{ list-style-image: url("chrome://browser/skin/privateBrowsing.svg") }

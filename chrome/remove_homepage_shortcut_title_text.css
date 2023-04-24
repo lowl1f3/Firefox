@@ -1,5 +1,6 @@
 /* Remove text from homepage/newtab website shortcuts. */
 /* Check if pinned by using context menu.              */
+
 @-moz-document url("about:home"),
 url("about:newtab") {
 	.outer-wrapper .top-site-outer {
