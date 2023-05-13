@@ -2,6 +2,7 @@
 #unified-extensions-view{
 	--uei-icon-size: 20px; /* Change icon size */
 }
+
 #unified-extensions-view .panel-header,
 #unified-extensions-view .panel-header + toolbarseparator,
 #unified-extensions-view .panel-subview-body + toolbarseparator,
@@ -25,6 +26,7 @@
 	padding-inline-start: 0.5em !important;
 	width: 21em !important;
 }
+
 #unified-extensions-view .unified-extensions-item-action-button.subviewbutton {
 	padding-top: 2px !important;
 	padding-bottom: 2px !important;

@@ -495,7 +495,6 @@ toolbar
 /* ----------------------------------------------------------------- */
 /* ----- Menu Items height/padding --panel-item-active-bgcolor ----- */
 /* ----------------------------------------------------------------- */
-
 menupopup :-moz-any(menu, menuitem) {
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
@@ -575,7 +574,6 @@ menupopup
 /* ----------------------------------- */
 /* ----- Bookmarks bar set color ----- */
 /* ----------------------------------- */
-
 #PersonalToolbar {
 	background-color: var(--firefoxcss-bookmarks-bg-color) !important;
 }
@@ -589,7 +587,6 @@ menupopup
 /* ----------------------------------- */
 /* --------- Toolbar buttons --------- */
 /* ----------------------------------- */
-
 toolbar
 	.toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover
 	> .toolbarbutton-icon,
@@ -690,7 +687,6 @@ toolbar
 /* ------------------------------------------------------------------------------ */
 /* ---------------------- Auto hide Buttons inside URL bar ---------------------- */
 /* ------------------------------------------------------------------------------ */
-
 #nav-bar:not([customizing="true"]):not(.searchButton)
 	> #nav-bar-customization-target
 	> #urlbar-container:not(:hover)
