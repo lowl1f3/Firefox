@@ -161,3 +161,5 @@ if (Test-Path -Path "$env:APPDATA\Mozilla\Firefox\Profiles\$ProfileName\chrome")
 		}
 	}
 }
+
+Start-Process -FilePath "https://github.com/lowl1f3/Firefox#before-running"
