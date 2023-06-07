@@ -29,6 +29,7 @@ if (-not (Test-Path -Path "$env:APPDATA\Mozilla\Firefox"))
 }
 
 # Get default profile name
+# https://github.com/farag2/Mozilla-Firefox/blob/master/Configure_Firefox.ps1#L5
 $String = (Get-Content -Path "$env:APPDATA\Mozilla\Firefox\installs.ini" | Select-String -Pattern "^\s*Default\s*=\s*.+" | ConvertFrom-StringData).Default
 $ProfileName = Split-Path -Path $String -Leaf
 
