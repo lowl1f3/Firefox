@@ -62,12 +62,6 @@ if (Test-Path -Path "$env:APPDATA\Mozilla\Firefox\Profiles\$ProfileName\chrome")
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/no_search_engines_in_url_bar.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/no_search_engines_in_url_bar.css",
 
-		# https://github.com/lowl1f3/Firefox/blob/main/chrome/privacy_blur_email_in_main_menu.css
-		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/privacy_blur_email_in_main_menu.css",
-
-		# https://github.com/lowl1f3/Firefox/blob/main/chrome/privacy_blur_email_in_sync_menu.css
-		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/privacy_blur_email_in_sync_menu.css",
-
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/remove_homepage_shortcut_title_text.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/remove_homepage_shortcut_title_text.css",
 
@@ -106,14 +100,8 @@ if (Test-Path -Path "$env:APPDATA\Mozilla\Firefox\Profiles\$ProfileName\chrome")
 	if (Test-Path -Path "$env:APPDATA\Mozilla\Firefox\Profiles\$ProfileName\chrome\image")
 	{
 		$Images = @(
-			# Firefox_2019.svg
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/Firefox_2019.svg",
-
 			# about-logo-private-changed.png
 			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/about-logo-private-changed.png",
-
-			# browser-firefox.svg
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/browser-firefox.svg",
 
 			# files.svg
 			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/files.svg",
