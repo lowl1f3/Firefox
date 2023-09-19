@@ -24,7 +24,7 @@ $Script:DownloadsFolder = Get-ItemPropertyValue -Path "HKCU:\SOFTWARE\Microsoft\
 # Check if Mozilla Firefox is installed
 if (-not (Test-Path -Path "$env:APPDATA\Mozilla\Firefox"))
 {
-	Write-Warning -Message "Mozilla Firefox isn't installed. Install it and re-run the script again."
+	Write-Warning -Message "Mozilla Firefox isn't installed. Install it and re-run the script/function again."
 	break
 }
 
