@@ -35,7 +35,7 @@
 
 #TabsToolbar .titlebar-close {
 	-moz-box-ordinal-group:0 !important;
-	 order: 2 !important;
+	order: 2 !important;
 }
 
 #navigator-toolbox[inFullscreen] #TabsToolbar .titlebar-buttonbox-container {
