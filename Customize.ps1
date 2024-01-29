@@ -2,7 +2,7 @@
 	.SYNOPSIS
 	A PowerShell script that automates customizing Mozilla Firefox
 
-	Copyright (c) 2023 lowl1f3
+	Copyright (c) 2024 lowl1f3
 
 	.LINK GitHub
 	https://github.com/lowl1f3/Firefox
@@ -51,36 +51,47 @@ if (-not (Test-Path -Path $env:APPDATA\Mozilla\Firefox\Profiles\$ProfileName\chr
 if (Test-Path -Path "$env:APPDATA\Mozilla\Firefox\Profiles\$ProfileName\chrome")
 {
 	$Files = @(
+		# cleaner_extensions_menu.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/cleaner_extensions_menu.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/cleaner_extensions_menu.css",
 
+		# give_more_width_to_active_tab.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/give_more_width_to_active_tab.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/give_more_width_to_active_tab.css",
 
+		# hide_list-all-tabs_button.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/hide_list-all-tabs_button.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/hide_list-all-tabs_button.css",
 
+		# icons_in_main_menu.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/icons_in_main_menu.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/icons_in_main_menu.css",
 
+		# min-max-close_buttons.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/min-max-close_buttons.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/min-max-close_buttons.css",
 
+		# no_search_engines_in_url_bar.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/no_search_engines_in_url_bar.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/no_search_engines_in_url_bar.css",
 
+		# remove_homepage_shortcut_title_text.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/remove_homepage_shortcut_title_text.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/remove_homepage_shortcut_title_text.css",
 
+		# transparent_bookmarks_bar.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/transparent_bookmarks_bar.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/transparent_bookmarks_bar.css",
 
+		# ublock-icon-change.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/ublock-icon-change.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/ublock-icon-change.css",
 
+		# userChrome.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/userChrome.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/userChrome.css",
 
+		# userContent.css
 		# https://github.com/lowl1f3/Firefox/blob/main/chrome/userContent.css
 		"https://raw.githubusercontent.com/lowl1f3/Firefox/main/chrome/userContent.css"
 	)
@@ -108,31 +119,40 @@ if (Test-Path -Path "$env:APPDATA\Mozilla\Firefox\Profiles\$ProfileName\chrome")
 	{
 		$Images = @(
 			# about-logo-private-changed.png
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/about-logo-private-changed.png",
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/about-logo-private-changed.png
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/about-logo-private-changed.png",
 
 			# files.svg
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/files.svg",
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/files.svg
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/files.svg",
 
 			# firefox.svg
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/firefox.svg",
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/firefox.svg
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/firefox.svg",
 
 			# firefoxx.png
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/firefoxx.png",
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/firefoxx.png
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/firefoxx.png",
 
 			# left-arrow.svg
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/left-arrow.svg",
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/left-arrow.svg
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/left-arrow.svg",
 
 			# noise-512x512.png
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/noise-512x512.png",
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/noise-512x512.png
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/noise-512x512.png",
 
 			# right-arrow.svg
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/right-arrow.svg",
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/right-arrow.svg
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/right-arrow.svg",
 
 			# search-glass.svg
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/search-glass.svg",
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/search-glass.svg
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/search-glass.svg",
 
 			# stack.svg
-			"https://raw.githubusercontent.com/datguypiko/Firefox-Mod-Blur/master/image/stack.svg"
+			# https://github.com/lowl1f3/Firefox/blob/main/icons/stack.svg
+			"https://raw.githubusercontent.com/lowl1f3/Firefox/main/icons/stack.svg"
 		)
 
 		Write-Warning -Message "Downloading images..."
