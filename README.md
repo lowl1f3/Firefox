@@ -8,6 +8,7 @@ Customizing Mozilla Firefox using [.css](https://github.com/lowl1f3/Firefox/tree
 
 > [!NOTE]
 > In `about:config` search `toolkit.legacyUserProfileCustomizations.stylesheets` and set to `True` for your custom themes to work
+> In `about:config` search `svg.context-properties.content.enabled` and set to `True` to enable highlighting of tabs with active playback
 
 ## Donations
 
