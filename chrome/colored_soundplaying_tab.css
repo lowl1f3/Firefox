@@ -2,7 +2,7 @@
 
 :root {
 	/* Change to any color you want */
-	--firefoxcss-colored-sound-tab: #475F7D !important;
+	--firefoxcss-colored-sound-tab: #5960c482 !important; 
 }
 
 #tabbrowser-tabs .tabbrowser-tab:is([soundplaying]) .tab-background:not([selected]) {
